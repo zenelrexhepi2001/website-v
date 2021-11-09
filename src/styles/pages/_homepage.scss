@@ -1,0 +1,82 @@
+.hero {
+    .divider {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 118px;
+
+        .divider__description {
+            h1 {
+                font-size: 90px;
+                font-family: "Space-grotesk-bold";
+                line-height: 0.81;
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: $dark-gray-color;
+                font-family: $font-space-grotesk;
+                opacity: 0.40;
+                width: 700px;
+                font-size: 30px;
+                font-weight: 550;
+                font-stretch: normal;
+                line-height: 1.28;
+                margin-bottom: 1.9rem;
+            }
+
+            a {
+                background-image: linear-gradient(to right, #27aee3 -4%, #0fe3f5 119%);
+                color: $light-color;
+                font-family: $font-productsans;
+                font-size: 18px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 80px;
+                padding-right: 80px;
+                border-radius: 30px;
+            }
+        }
+
+        .divider__image {
+           max-width: 100%;
+            img {
+              width: 100%;
+              min-height: 500px;
+              object-fit: cover;
+              filter:blur(1)
+            }
+        }
+    }
+
+    .scroll-down {
+        display: flex;
+        justify-content: center;
+        padding-top: 71px;
+        animation: scroll 5s infinite linear;
+        position: relative;
+        transition: 0.2s ease-in;
+
+        .btn.btn-light {
+            background: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            
+        }
+    }
+
+
+    @keyframes scroll {
+        0% {
+
+        }
+        100% {
+           // transform: translate(20deg);
+          // top: 50px;
+          transform: translateY(35px);
+           transition: 0.2s ease-in;
+        }
+    }
+}

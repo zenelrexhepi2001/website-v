@@ -1,0 +1,25 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#27aee3"/>
+            <stop offset="1" stop-color="#0fe3f5"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="invisible_box" data-name="invisible box">
+        <path id="Rectangle_206" data-name="Rectangle 206" style="fill:none" d="M0 0h100v100H0z"/>
+    </g>
+    <g id="Health_Icons" data-name="Health Icons" transform="translate(8.333 8.333)">
+        <g id="Group_1391" data-name="Group 1391">
+            <path id="Path_880" data-name="Path 880" class="cls-2" d="M4 41.5h37.5V4H4zm8.333-29.167h20.834v20.834H12.333z" transform="translate(-4 -4)"/>
+            <path id="Path_881" data-name="Path 881" class="cls-2" d="M4 63.5h37.5V26H4zm8.333-29.167h20.834v20.834H12.333z" transform="translate(-4 19.833)"/>
+            <path id="Path_882" data-name="Path 882" class="cls-2" d="M26 4v37.5h37.5V4zm29.167 29.167H34.333V12.333h20.834z" transform="translate(19.833 -4)"/>
+            <path id="Rectangle_207" data-name="Rectangle 207" class="cls-2" transform="translate(14.667 14.667)" d="M0 0h8v8H0z"/>
+            <path id="Path_883" data-name="Path 883" class="cls-2" d="M34.333 33H26v22.917h37.5v-8.334H34.333z" transform="translate(19.833 27.417)"/>
+            <path id="Path_884" data-name="Path 884" class="cls-2" d="M47.583 40.583H33v8.333h22.917V26h-8.334z" transform="translate(27.417 19.833)"/>
+            <path id="Rectangle_208" data-name="Rectangle 208" class="cls-2" transform="translate(45.667 45.667)" d="M0 0h23v8H0z"/>
+        </g>
+    </g>
+</svg>

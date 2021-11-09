@@ -1,0 +1,7 @@
+@mixin get__header($flex,$center,$space-between,$row,$wrap) {
+    display: $flex;
+    align-items: $center;
+    justify-content: $space-between;
+    flex-direction: $row;
+    flex-wrap: $wrap;
+}

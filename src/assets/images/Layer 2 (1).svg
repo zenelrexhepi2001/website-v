@@ -1,0 +1,20 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#27aee3"/>
+            <stop offset="1" stop-color="#0fe3f5"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="invisible_box" data-name="invisible box">
+        <path id="Rectangle_204" data-name="Rectangle 204" style="fill:none" d="M0 0h100v100H0z"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2" transform="translate(12.475 4.158)">
+        <g id="Group_1389" data-name="Group 1389">
+            <path id="Path_873" data-name="Path 873" class="cls-2" d="M76.693 35.267h-8.317v-10.4A22.871 22.871 0 0 0 45.5 2h-4.154a22.871 22.871 0 0 0-22.871 22.871v10.4h-8.317A4.158 4.158 0 0 0 6 39.425v49.9a4.158 4.158 0 0 0 4.158 4.158h66.535a4.158 4.158 0 0 0 4.158-4.158v-49.9a4.158 4.158 0 0 0-4.158-4.158zm-49.9-10.4a14.554 14.554 0 0 1 14.553-14.55H45.5a14.554 14.554 0 0 1 14.559 14.554v10.4H26.792zm45.742 60.3H14.317V43.584h58.217z" transform="translate(-6 -2)"/>
+            <path id="Path_874" data-name="Path 874" class="cls-2" d="M36.534 34.178a8.317 8.317 0 1 0-12.475 7.277v5.2a4.158 4.158 0 0 0 8.317 0v-5.2a8.317 8.317 0 0 0 4.158-7.277z" transform="translate(9 23.831)"/>
+        </g>
+    </g>
+</svg>

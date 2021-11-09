@@ -1,0 +1,23 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#27aee3"/>
+            <stop offset="1" stop-color="#0fe3f5"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="invisible_box" data-name="invisible box">
+        <path id="Rectangle_203" data-name="Rectangle 203" style="fill:none" d="M0 0h100v100H0z"/>
+    </g>
+    <g id="icons_Q2" data-name="icons Q2" transform="translate(4.182 16.728)">
+        <g id="Group_1388" data-name="Group 1388">
+            <path id="Path_868" data-name="Path 868" class="cls-2" d="M89.822 8H6.182A4.182 4.182 0 0 0 2 12.182v29.274a4.182 4.182 0 0 0 4.809 4.182 4.391 4.391 0 0 0 3.555-4.391V16.364H85.64v50.184H64.73a4.182 4.182 0 0 0-4.182 4.809 4.391 4.391 0 0 0 4.391 3.555h24.883A4.182 4.182 0 0 0 94 70.73V12.182A4.182 4.182 0 0 0 89.822 8z" transform="translate(-2 -8)"/>
+            <path id="Path_869" data-name="Path 869" class="cls-2" d="M2 36.364V48.91a4.391 4.391 0 0 0 4.6 4.182h40.984a4.391 4.391 0 0 0 4.6-4.182V36.364A42.866 42.866 0 0 0 27.092 28 42.865 42.865 0 0 0 2 36.364zm41.82 8.364H10.364v-3.764a32.62 32.62 0 0 1 33.456 0z" transform="translate(-2 13.82)"/>
+            <path id="Path_870" data-name="Path 870" class="cls-2" d="M30.182 24.364h20.91a4.182 4.182 0 1 0 0-8.364h-20.91a4.182 4.182 0 1 0 0 8.364z" transform="translate(24.184 .728)"/>
+            <path id="Path_871" data-name="Path 871" class="cls-2" d="M55.274 28.182A4.182 4.182 0 0 0 51.092 24h-20.91a4.182 4.182 0 1 0 0 8.364h20.91a4.182 4.182 0 0 0 4.182-4.182z" transform="translate(24.184 9.456)"/>
+            <path id="Path_872" data-name="Path 872" class="cls-2" d="M33.092 26.546a12.546 12.546 0 1 0-12.546 12.546 12.546 12.546 0 0 0 12.546-12.546zm-16.728 0a4.182 4.182 0 1 1 4.182 4.182 4.182 4.182 0 0 1-4.182-4.182z" transform="translate(4.546 -1.454)"/>
+        </g>
+    </g>
+</svg>

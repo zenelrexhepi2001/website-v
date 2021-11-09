@@ -1,0 +1,87 @@
+.header {
+    padding-top: 30px;
+    //position: fixed;
+    width: 100%;
+  //  z-index: 1000;
+
+    .header__elements {
+       
+        @include get__header(flex,center,space-between,row,wrap);
+
+        .header__links {
+            display: flex;
+            align-items: center;
+
+            .header__logo {
+                margin-right: 30.5px;
+                a {
+                    text-decoration: none;
+                    svg {
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            ul {
+                display: flex;
+                a {
+                    color: #151616;
+                    font-size: 17px;
+                    font-family: $font-productsans;
+                    font-weight: 600;
+                    line-height: 1.21;
+                    letter-spacing: 0.31px;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    margin-right: 15px;
+                    opacity: 0.40;
+                    transition: 0.3s ease-in;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+
+                    &:focus {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .header__elements-right {
+
+            display: inline-flex;
+            align-items: center;
+
+            .btn.btn-light {
+                color: $blue-color;
+                font-size: 16px;
+                font-family: $font-productsans;
+                font-weight: 550;
+                font-stretch: normal;
+                line-height: 1.18;
+                letter-spacing: normal;
+            }
+
+            .btn.btn-primary {
+                background-image: linear-gradient(to right, #27aee3 -4%, #0fe3f5 119%);
+                color: $light-color;
+                font-size: 16px;
+                font-family: $font-productsans;
+                font-weight: 550;
+                font-stretch: normal;
+                line-height: 1.18;
+                letter-spacing: normal;
+                text-decoration: none;
+                padding-top: 13px;
+                padding-left: 55px;
+                padding-bottom: 13px;
+                padding-right: 55px;
+                border-radius: 30px;
+                box-shadow: 2px 4px 7.5px 0 rgba(0, 0, 0, 0.16);
+                margin-left: 12px;
+            }
+        }
+    }
+}

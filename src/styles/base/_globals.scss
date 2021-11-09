@@ -1,0 +1,125 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: $primary-color;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: $max-width-container;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+button,
+form,
+label,
+input,
+textarea,
+table,
+thead,
+th,
+tbody,
+td,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+
+  .fl-direction-r {
+    flex-direction: row;
+  }
+  .fl-direction-c {
+    flex-direction: column;
+  }
+  .f-wrap {
+    flex-wrap: wrap;
+  }
+  .f-wrap-r {
+    flex-wrap: wrap-reverse;
+  }
+  .f-flow {
+    flex-flow: wrap;
+  }
+
+  .jc-c {
+    justify-content: center;
+  }
+
+  .jc-sb {
+    justify-content: space-between;
+  }
+  .jc-sa {
+    justify-content: space-around;
+  }
+  .jc-ev {
+    justify-content: space-evenly;
+  }
+
+  .ai-c {
+      align-items: center;
+  }
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pt-1{
+    padding-left: 1rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.zidx {
+    z-index: 1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.text-right {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
