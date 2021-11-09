@@ -8,33 +8,45 @@ const Header = () => (
     <div className="container">
       <div className="header__elements">
         <div className="header__links">
-        <div className="header__logo">
-          <Link to="/">
-            <LogoHeader />
-          </Link>
-        </div>
+          <div className="header__logo">
+            <Link to="/">
+              <LogoHeader />
+            </Link>
+          </div>
           <ul>
-            <Link to="/" className="header-link">
-              Developers
-              <Dropdown />
-            </Link>
-            <Link to="/" className="header-link">
-              Support
-              <Dropdown />
-            </Link>
-            <Link to="/" className="header-link">
-              Services
-              <Dropdown />
-            </Link>
-            <Link to="/" className="header-link">
-              Blog
-            </Link>
+            <li>
+              <Link to="/" className="header-link">
+                Developers
+                <Dropdown />
+              </Link>
+            </li>
+            <li>
+              <Link to="/" className="header-link">
+                Support
+                <Dropdown />
+              </Link>
+            </li>
+            <li>
+              <Link to="/" className="header-link">
+                Services
+                <Dropdown />
+              </Link>
+            </li>
+            <li>
+              <Link to="/" className="header-link">
+                Blog
+              </Link>
+            </li>
           </ul>
         </div>
-       <div className="header__elements-right">
-       <Link to='/' className="btn btn-light">Register</Link>
-       <Link to='/' className="btn btn-primary">Login</Link>
-       </div>
+        <div className="header__elements-right">
+          <Link to="/" className="btn btn-light">
+            Register
+          </Link>
+          <Link to="/" className="btn btn-primary">
+            Login
+          </Link>
+        </div>
       </div>
     </div>
   </header>

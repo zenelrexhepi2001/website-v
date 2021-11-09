@@ -24,6 +24,12 @@
 
             ul {
                 display: flex;
+                align-items: center;
+                flex-direction: row;
+
+                li {
+                    list-style-type: none;
+
                 a {
                     color: #151616;
                     font-size: 17px;
@@ -45,7 +51,12 @@
                     &:focus {
                         opacity: 1;
                     }
+
+                    svg {
+                        object-fit: contain;
+                    }
                 }
+            }
             }
         }
 
