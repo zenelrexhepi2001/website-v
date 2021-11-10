@@ -123,3 +123,51 @@ blockquote {
 a {
     text-decoration: none;
 }
+
+h1::selection {
+  color:  #27aee3;
+  background: none;
+  transition: 0.2s ease-in;
+}
+
+h2::selection {
+  color:  #27aee3;
+  background: none;
+  transition: 0.2s ease-in;
+}
+
+h3::selection {
+  color:  #27aee3;
+  background: none;
+  transition: 0.2s ease-in;
+}
+
+h4::selection {
+  color:  #27aee3;
+  background: none;
+  transition: 0.2s ease-in;
+}
+
+h5::selection {
+  color:  #27aee3;
+  background: none;
+  transition: 0.2s ease-in;
+}
+
+h6::selection {
+  color:  #27aee3;
+  background: none;
+  transition: 0.2s ease-in;
+}
+
+p {
+  color:  #27aee3;
+  background: none;
+  transition: 0.2s ease-in;
+}
+
+a {
+  color:  #27aee3;
+  background: none;
+  transition: 0.2s ease-in;
+}

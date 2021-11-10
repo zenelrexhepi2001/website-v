@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="710" height="614" viewBox="0 0 710 614">
+    <defs>
+        <filter id="Rectangle_174" x="0" y="0" width="710" height="614" filterUnits="userSpaceOnUse">
+            <feOffset dx="15" dy="15"/>
+            <feGaussianBlur stdDeviation="15" result="blur"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="Rectangle_175" x="0" y="10" width="680" height="128" filterUnits="userSpaceOnUse">
+            <feOffset dy="10"/>
+            <feGaussianBlur stdDeviation="10" result="blur-2"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-6{opacity:.5}.cls-7{fill:none}
+        </style>
+    </defs>
+    <g id="Group_1358" data-name="Group 1358" transform="translate(-730 -877)">
+        <g transform="translate(730 877)" style="filter:url(#Rectangle_174)">
+            <g id="Rectangle_174-2" data-name="Rectangle 174" transform="translate(30 30)" style="fill:#f5f8f9;stroke:#fff;stroke-width:4px">
+                <rect width="620" height="524" rx="19" style="stroke:none"/>
+                <rect class="cls-7" x="2" y="2" width="616" height="520" rx="17"/>
+            </g>
+        </g>
+        <g transform="translate(730 877)" style="filter:url(#Rectangle_175)">
+            <path id="Rectangle_175-2" data-name="Rectangle 175" d="M19 0h582a19 19 0 0 1 19 19v49H0V19A19 19 0 0 1 19 0z" transform="translate(30 30)" style="fill:#fff"/>
+        </g>
+        <text id="Response" transform="translate(780 950)" style="font-family:Space Grotesk;letter-spacing:-.03em;font-size:22px;font-weight:700;fill:#151616"><tspan x="0" y="0">Response</tspan></text>
+        <text id="_object_:_list_url_:_v1_customers_has_more_:_false_data_:_id_:_cus_4QE0v7gcdox28x_object_:_customer_address_:_null_balance_:_0_created_:_1405636867_currency_:_usd_def" data-name="{ &quot;object&quot;: &quot;list&quot;, &quot;url&quot;: &quot;/v1/customers&quot;, &quot;has_more&quot;: false, &quot;data&quot;: [ { &quot;id&quot;: &quot;cus_4QE0v7gcdox28x&quot;, &quot;object&quot;: &quot;customer&quot;, &quot;address&quot;: null, &quot;balance&quot;: 0, &quot;created&quot;: 1405636867, &quot;currency&quot;: &quot;usd&quot;, &quot;def" transform="translate(780 995)" style="font-size:17px;font-family:Space Grotesk;letter-spacing:-.03em;fill:#151616"><tspan x="0" y="17">{</tspan><tspan x="0" y="41" xml:space="preserve">  &quot;object&quot;: &quot;list&quot;,</tspan><tspan x="0" y="65" xml:space="preserve">  &quot;url&quot;: &quot;/v1/customers&quot;,</tspan><tspan x="0" y="89" xml:space="preserve">  &quot;has_more&quot;: false,</tspan><tspan x="0" y="113" xml:space="preserve">  &quot;data&quot;: [</tspan><tspan x="0" y="137" xml:space="preserve">    {</tspan><tspan x="0" y="161" xml:space="preserve">      &quot;id&quot;: &quot;cus_4QE0v7gcdox28x&quot;,</tspan><tspan x="0" y="185" xml:space="preserve">      &quot;object&quot;: &quot;customer&quot;,</tspan><tspan x="0" y="209" xml:space="preserve">      &quot;address&quot;: null,</tspan><tspan x="0" y="233" xml:space="preserve">      &quot;balance&quot;: 0,</tspan><tspan x="0" y="257" xml:space="preserve">      &quot;created&quot;: 1405636867,</tspan><tspan x="0" y="281" xml:space="preserve">      &quot;currency&quot;: &quot;usd&quot;,</tspan><tspan x="0" y="305" xml:space="preserve">      &quot;default_source&quot;: &quot;card_14HNYk2eZvKYlo2C0zXVbXp3&quot;,</tspan><tspan x="0" y="329" xml:space="preserve">      &quot;delinquent&quot;: true,</tspan><tspan x="0" y="353" xml:space="preserve">      &quot;description&quot;: &quot;someone@example.com for Coderwall&quot;,</tspan><tspan x="0" y="377" xml:space="preserve">      &quot;discount&quot;: null,</tspan><tspan x="0" y="401" xml:space="preserve">      &quot;email&quot;: null,</tspan></text>
+        <g id="Group_1363" data-name="Group 1363" transform="translate(-6 -2)">
+            <text id="Select_library" data-name="Select library" transform="translate(1184 950)" style="opacity:.5;font-weight:500;font-size:17px;font-family:Space Grotesk;letter-spacing:-.03em;fill:#151616"><tspan x="0" y="0">Select library</tspan></text>
+            <g id="Layer_2" data-name="Layer 2" class="cls-6" transform="translate(1292 943.619)">
+                <g id="invisible_box" data-name="invisible box">
+                    <path id="Rectangle_176" data-name="Rectangle 176" class="cls-7" transform="translate(0 .381)" d="M0 0h19v19H0z"/>
+                </g>
+                <g id="icons_Q2" data-name="icons Q2" transform="translate(4.038 6.444)">
+                    <path id="Path_827" data-name="Path 827" d="m15.653 20.5-4.28-4.28a.767.767 0 0 0-1.211.081.848.848 0 0 0 .081 1.09l4.845 4.8a.767.767 0 0 0 1.131 0l4.845-4.8a.848.848 0 0 0 .081-1.09.767.767 0 0 0-1.211-.081z" transform="translate(-10.001 -15.959)"/>
+                </g>
+            </g>
+            <g id="Layer_2-2" data-name="Layer 2" class="cls-6" transform="translate(1291.555 925.008)">
+                <g id="invisible_box-2" data-name="invisible box">
+                    <path id="Rectangle_177" data-name="Rectangle 177" class="cls-7" transform="translate(.445 -.008)" d="M0 0h19v19H0z"/>
+                </g>
+                <g id="icons_Q2-2" data-name="icons Q2" transform="translate(4.038 6.454)">
+                    <path id="Path_828" data-name="Path 828" d="m15.653 17.929-4.28 4.28a.767.767 0 0 1-1.211-.081.848.848 0 0 1 .081-1.09l4.845-4.8a.767.767 0 0 1 1.131 0l4.845 4.8a.848.848 0 0 1 .081 1.09.767.767 0 0 1-1.211.081z" transform="translate(-10.001 -15.985)"/>
+                </g>
+            </g>
+        </g>
+        <rect id="Rectangle_180" data-name="Rectangle 180" width="2" height="38" rx="1" transform="translate(1319 923)" style="opacity:.15;fill:#151616"/>
+        <g id="Layer_2-3" data-name="Layer 2" class="cls-6" transform="translate(1335 931.957)">
+            <g id="invisible_box-3" data-name="invisible box">
+                <path id="Rectangle_179" data-name="Rectangle 179" class="cls-7" transform="translate(0 .043)" d="M0 0h20v20H0z"/>
+            </g>
+            <g id="icons_Q2-3" data-name="icons Q2" transform="translate(2.505 .835)">
+                <path id="Path_829" data-name="Path 829" d="M20.2 20.538H6.835A.835.835 0 0 1 6 19.7V3.835A.835.835 0 0 1 6.835 3h4.176a.835.835 0 0 1 .835.835.835.835 0 0 1-.835.835H7.67v14.2h11.692v-3.677a.835.835 0 0 1 .835-.835.835.835 0 0 1 .835.835V19.7a.835.835 0 0 1-.832.838z" transform="translate(-6 -2.582)"/>
+                <path id="Path_830" data-name="Path 830" d="M32.011 11.505a.877.877 0 0 1-.835.835h-.836v.835a.835.835 0 0 1-.835.835.877.877 0 0 1-.835-.835v-.835h-.835a.835.835 0 0 1-.835-.835.877.877 0 0 1 .835-.835h.835v-.835A.835.835 0 0 1 29.505 9a.877.877 0 0 1 .835.835v.835h.835a.835.835 0 0 1 .836.835z" transform="translate(-18.231 -6.077)"/>
+                <path id="Path_831" data-name="Path 831" d="M25.428 3.67a3.758 3.758 0 1 1-3.758 3.758 3.758 3.758 0 0 1 3.758-3.758m0-1.67a5.428 5.428 0 1 0 5.428 5.428A5.428 5.428 0 0 0 25.428 2z" transform="translate(-14.154 -2)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -28,7 +28,7 @@ const HomepageSection = () => {
             <Link to='/'>Vist our web</Link>
           </div>
           <div className="divider__image">
-              <img alt="divider-image" src={imagedivider}/>
+              <img src={imagedivider}/>
           </div>
         </div>
       </div>

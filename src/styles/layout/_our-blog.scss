@@ -1,0 +1,107 @@
+.our__blog-section {
+  padding-top: 76px;
+
+  .our__blog-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: $font-space-grotesk;
+    color: $dark-gray-color;
+    font-size: 20px;
+    font-width: 500;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: -0.38px;
+  }
+
+  .our__blog-titles {
+    margin-bottom: 50px;
+
+    p {
+      color: $dark-gray-color;
+      font-size: 25px;
+      font-family: $font-productsans;
+      font-width: 500;
+      font-stretch: normal;
+      line-height: 1.27;
+      letter-spacing: -0.33px;
+      opacity: 0.5;
+    }
+
+    h1 {
+      font-size: 30px;
+      font-family: $font-space-grotesk;
+      color: $dark-gray-color;
+      font-width: bold;
+      font-stretch: normal;
+      line-height: 1.28;
+      letter-spacing: -0.6px;
+      text-align: left;
+    }
+  }
+
+  .our__blog-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+      .card__blog {
+        width: 450px;
+        max-width: 100%;
+
+        .card__blog-description{
+          width: 100%;
+
+           h1 {
+             color: $dark-gray-color;
+             font-size: 17px;
+             font-family: $font-space-grotesk;
+             font-width: 500;
+             font-stretch: normal;
+             line-height: 1.29;
+             letter-spacing: normal;
+             text-align: left;
+             margin-bottom: 20px;
+           }
+          .card__blog-link {
+            color: $dark-gray-color;
+            font-size: 25px;
+            font-family: $font-space-grotesk;
+            font-width: bold;
+            width: 100%;
+          }
+          p {
+            margin-top: 15px;
+            color: $dark-gray-color;
+            font-size: 20px;
+            font-family: $font-productsans;
+            line-height: 1.2;
+            letter-spacing: normal;
+            opacity: 0.5;
+
+            &:hover {
+              opacity: 1;
+              transition: 0.2s ease-in;
+            }
+          }
+        }
+
+        .card__blog-image {
+          background: no-repeat center center /cover;
+          width: 450px;
+          min-height: 280px;
+          margin-bottom: 7.5px;
+          object-fit: cover;
+          object-position: center;
+          transition: 200ms transform ease-in;
+
+          &:hover {
+            transform: scale(1.025);
+          }
+        }
+
+      }
+  }
+}
