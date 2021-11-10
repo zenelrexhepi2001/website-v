@@ -1,0 +1,107 @@
+.card__section {
+  padding-top: 66px;
+
+     .card__section-child {
+       width: 100%;
+       max-width: 100%;
+       margin-bottom: 45px;
+
+       .card__section-body {
+         display: flex;
+         align-items: center;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-between;
+
+         .card__section-description {
+           p {
+             color: $dark-gray-color;
+             width: 462px;
+             font-size: 20px;
+             font-family: $font-space-grotesk;
+             font-width: 500;
+             font-stretch: normal;
+             opacity: 0.5;
+             line-height: 1.32;
+             letter-spacing: normal;
+             text-align: left;
+             margin-bottom: 30px;
+           }
+
+           .card__section-subtitles {
+             margin-bottom: 55px;
+
+             h3 {
+               color: $dark-gray-color;
+               font-size: 25px;
+               font-family: $font-productsans;
+               font-width: 500;
+               font-stretch: normal;
+               line-height: 1.27;
+               letter-spacing: -0.33px;
+               opacity: 0.5;
+             }
+
+             h1 {
+               font-size: 30px;
+               font-family: $font-productsans-bold;
+               color: $dark-gray-color;
+               font-width: bold;
+               font-stretch: normal;
+               line-height: 1.28;
+               letter-spacing: -0.6px;
+               text-align: left;
+             }
+           }
+
+           h1 {
+             font-size: 50px;
+             font-family: $font-space-grotesk;
+             line-height: 0.95;
+             font-stretch: normal;
+             font-width: bold;
+             letter-spacing: 0.93px;
+             color: $dark-gray-color;
+             margin-bottom: 15px;
+           }
+         }
+         .card__section-link {
+           color: $dark-gray-color;
+           font-size: 20px;
+           font-family: $font-space-grotesk;
+           font-stretch: normal;
+           line-height: 1.28;
+           letter-spacing: -0.38;
+           display: flex;
+           align-items:center;
+           flex-direction: row;
+           min-height: 0;
+         }
+
+         .mb-28 {
+           margin-bottom: 28px;
+           font-size: 20px;
+           font-family: $font-space-grotesk;
+           opacity: 0.40;
+           margin-bottom: 30px;
+         }
+
+
+
+
+         .card__section-image {
+           max-width: 100%;
+           object-fit: cover;
+
+           img {
+             background-repeat: no-repeat;
+             background-position: center center;
+             background-size: cover;
+             width: 800px;
+             object-fit: cover;
+            // min-height: 500px;
+           }
+         }
+       }
+     }
+}
