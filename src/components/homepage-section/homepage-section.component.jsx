@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import imagedivider from "../../assets/images/computersc.png";
 import ScrollButton from "../scroll-button/scroll-button.component";
+import Header from "../header/header.component";
 
 const HomepageSection = () => {
   useEffect(() => {
@@ -10,6 +11,7 @@ const HomepageSection = () => {
 
   return (
     <div className="hero">
+      <Header/>
       <div className="container">
         <div className="divider">
           <div className="divider__description">

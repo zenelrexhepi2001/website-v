@@ -4,6 +4,7 @@ import  RightArrow from '../../assets/images/Arrow-right.svg';
 import  ImgVoltoxClient from '../../assets/images/voltox-client.jpg';
 import Footer from "../footer/footer.component";
 import SimilarBlog from "../similar-blog-items/similar-blogs.component";
+import Header from "../header/header.component";
 
 class BlogOpened extends React.Component {
 
@@ -58,6 +59,7 @@ class BlogOpened extends React.Component {
           const {similarBlog} = this.state;
           return(
               <>
+                  <Header/>
              <div className="blog-opened-article">
                  <div className="blog-opened-titles">
                      <Link to='/blog'>

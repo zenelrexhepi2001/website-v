@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import ResponseImage from '../../assets/images/api.png';
 import {ReactComponent as More} from '../../assets/images/more.svg.svg';
 import voltoxSupportImage from '../../assets/images/voltox-support.jpg';
+import Header from "../header/header.component";
 
 
 const SectionSupport = () => (

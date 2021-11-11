@@ -3,6 +3,7 @@ import BLOG_DATA from "./blog-data";
 import BlogCard from "../../components/blog-card-article/blog-card.component";
 import Footer from "../../components/footer/footer.component";
 import BlogPreview from "../../components/blog-preview/blog-preview.component";
+import Header from "../../components/header/header.component";
 
 
 class Blog extends  React.Component {
@@ -21,6 +22,8 @@ class Blog extends  React.Component {
     render() {
            const {getBlogData} = this.state;
            return(
+               <>
+                   <Header/>
                <div className="blog__hero">
                    <div className="container">
                        <BlogCard/>
@@ -34,6 +37,7 @@ class Blog extends  React.Component {
                        <Footer/>
                    </div>
                </div>
+                   </>
            )
        }
 }

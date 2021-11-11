@@ -1,0 +1,203 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+
+  .sidebar {
+    background: url("../../assets/images/sign-in.png")no-repeat center center /cover;
+  // background-color: rgb(0,0,0,0,0,0.5);
+    width: 761px;
+    min-height: 100vh;
+    object-fit: cover;
+
+    .sidebar-content {
+      padding-top: 260px;
+      text-align: center;
+
+      h1 {
+        color: $dark-gray-color;
+        font-size: 55px;
+        font-family: $font-productsans-bold;
+        font-stretch: normal;
+        font-weight: bold;
+        line-height: 1.28;
+        letter-spacing: normal;
+      }
+
+      p {
+        color: $dark-gray-color;
+        font-size: 18px;
+        font-family: $font-productsans-bold;
+        font-stretch: normal;
+        font-weight: bold;
+        line-height: 1.28;
+        letter-spacing: normal;
+      }
+
+      .sidebar-logo {
+        padding-top: 117px;
+        
+        button {
+          background: transparent;
+          outline: none;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .content-area {
+    flex: 1;
+    .sign-in-face {
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+      align-items: center;
+      padding-top: 3rem;
+      text-align: center;
+
+      .sign-in-titles {
+        h1 {
+          font-size: 50.5px;
+          font-family: $font-productsans-bold;
+          font-weight: bold;
+          color: #27aee3;
+          line-height: 1.11;
+          letter-spacing: normal;
+        }
+        p {
+          font-size: 18.2px;
+          font-family: $font-space-grotesk;
+          font-weight: bold;
+          color: $dark-gray-color;
+          line-height: 1.11;
+          letter-spacing: normal;
+          margin-bottom: 1rem;
+        }
+      }
+      .sign-in-image {
+
+        .sign-in-avatar {
+          display: flex;
+          justify-content: center;
+          border: 8.5px solid #27aee3;
+          border-radius: 100%;
+          margin-bottom: 1rem;
+          img {
+            background: no-repeat center center /cover;
+            width: 250px;
+            height: 250px;
+            border-radius: 100%;
+            object-fit: cover;
+          }
+        }
+        button{
+          color: $light-color;
+          font-size: 16px;
+          font-family: $font-productsans;
+          font-stretch: normal;
+          line-height: 1.18;
+          letter-spacing: normal;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 26px;
+          padding-right: 26px;
+          border-radius: 30px;
+          box-shadow: 2px 4px 7.5px 0 rgba(0, 0, 0, 0.16);
+          background-image: linear-gradient(to right, #27aee3 -4%, #0fe3f5 119%);
+          border: none;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+    }
+    form {
+      padding-top: 73px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .form-control {
+        padding-bottom: 28px;
+
+        .form-control-element {
+          background-color: #f5f8f9;
+          color: $dark-gray-color;
+          width: 450px;
+          font-size: 20px;
+          font-family: $font-productsans;
+          font-weight: normal;
+          line-height: 1.23;
+          letter-spacing: normal;
+          padding-left: 9.1px;
+          padding-right: 9.1px;
+          padding-bottom: 4.5px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 2px solid #27aee3;
+          outline: none;
+
+          &:focus {
+            transition: 0.2s ease-in;
+            border-bottom: 2px solid $dark-gray-color;
+          }
+        }
+        input::placeholder {
+          color: #27aee3;
+        }
+      }
+      .form-link {
+        padding-bottom: 1.5rem;
+        a {
+          font-size: 18.2px;
+          font-family: $font-space-grotesk;
+          font-weight: bold;
+          color: $dark-gray-color;
+          line-height: 1.11;
+          letter-spacing: normal;
+          margin-bottom: 1rem;
+          opacity: 0.3;
+          &:hover {
+            transition: 0.3s ease-in;
+            opacity: 1;
+          }
+
+        }
+      }
+
+      button {
+        margin-bottom: 1rem;
+        color: $light-color;
+        font-size: 16px;
+        font-family: $font-productsans;
+        font-stretch: normal;
+        line-height: 1.18;
+        letter-spacing: normal;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 60px;
+        padding-right: 60px;
+        border-radius: 30px;
+        box-shadow: 2px 4px 7.5px 0 rgba(0, 0, 0, 0.16);
+        background-image: linear-gradient(to right, #27aee3 -4%, #0fe3f5 119%);
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+      p {
+        font-size: 18.2px;
+        font-family: $font-space-grotesk;
+        font-weight: bold;
+        color: $dark-gray-color;
+        line-height: 1.11;
+        letter-spacing: normal;
+        margin-bottom: 1rem;
+
+        a {
+          text-decoration: underline;
+          color: $dark-gray-color;
+        }
+      }
+    }
+  }
+}
