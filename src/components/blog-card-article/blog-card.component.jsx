@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import ImageBlog from '../../assets/images/image-blog.png.png';
+import {ReactComponent as  ArrowRight} from "../../assets/images/more.svg.svg";
 
 const BlogCard = () => (
     <>
@@ -41,6 +42,9 @@ const BlogCard = () => (
                 will be a solution that allows smart Retailers to ‘leap-frog the competition and bring greater value to their Customers.”</p>
             </div>
         </div>
+        <Link to='/blog-opened' className="read-more-link">
+           Read more <ArrowRight/>
+        </Link>
     </article>
     </>
 )

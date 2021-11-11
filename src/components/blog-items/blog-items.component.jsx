@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {Link,withRouter} from "react-router-dom";
 
 const BlogItemsCard = ({imageUrl,date,title,content}) => (
     <article className="card-blog-child">
@@ -18,4 +18,4 @@ const BlogItemsCard = ({imageUrl,date,title,content}) => (
     </article>
 )
 
-export default  BlogItemsCard;
+export default  withRouter(BlogItemsCard);

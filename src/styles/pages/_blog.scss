@@ -28,6 +28,18 @@
 
   .card-blog {
 
+    .read-more-link {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      color: $dark-gray-color;
+      font-size: 25px;
+      font-family: $font-space-grotesk;
+      font-stretch: normal;
+      position: relative;
+      top: 60px;
+    }
+
     .card-blog-description {
       display: flex;
       align-items: flex-start;
@@ -136,5 +148,13 @@
         letter-spacing: normal;
       }
     }
+  }
+  .blog-title-similar{
+    color: $dark-gray-color;
+    font-family: $font-space-grotesk;
+    font-size: 20px;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
   }
 }

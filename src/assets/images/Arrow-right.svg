@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.75" height="23.207" viewBox="0 0 27.75 23.207">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#151616;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Iconly_Light_Arrow_-_Right" data-name="Iconly/Light/Arrow - Right" transform="translate(.75 1.061)">
+        <g id="Arrow_-_Right" data-name="Arrow - Right" transform="rotate(-90 10.543 10.543)">
+            <path id="Stroke_1" data-name="Stroke 1" class="cls-1" d="M0 0v26.25" transform="translate(10.543)"/>
+            <path id="Stroke_3" data-name="Stroke 3" class="cls-1" d="M21.086 10.587 10.544 0 0 10.587"/>
+        </g>
+    </g>
+</svg>
