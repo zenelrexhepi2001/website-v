@@ -5,15 +5,11 @@ import { ReactComponent as ScrollLogo } from "../../assets/images/scroll.svg";
 const ScrollButton = () => {
     const [scroll,setScroll] = useState(0);
 
-    useEffect(() => {
-        console.log(scroll);
-    },[setScroll]);
-
   const handleScroll = (e) => {
     e.preventDefault();
-    console.log(e);
-   // alert(e);
+      console.log(e);
   };
+
   return (
     <div className="scroll-down">
       <CoustumButton
