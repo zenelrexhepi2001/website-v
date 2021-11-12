@@ -1,0 +1,114 @@
+.faq-support {
+  .faq-support-titles {
+    padding-top: 2rem;
+     h3 {
+       color: $dark-gray-color;
+       font-family: $font-space-grotesk;
+       font-size: 18px;
+       font-weight: bold;
+       font-stretch: normal;
+       line-height: 1.27;
+       letter-spacing: -0.33px;
+       opacity: 0.5;
+     }
+    h1 {
+      color: $dark-gray-color;
+      font-family: $font-space-grotesk;
+      font-size: 40px;
+      font-weight: bold;
+      font-stretch: normal;
+      line-height: 1.28;
+      letter-spacing: -0.6px;
+    }
+  }
+
+  .faq-support-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    .accordion {
+     // position: absolute;
+
+      .accordion-item {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 600px;
+        border-bottom: 2px solid #ddd;
+        border-radius: 1.5px;
+        padding-top: 13.5px;
+        transition: 0.2s ease-in;
+
+        .accordion-elements {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: space-between;
+
+          h1 {
+            color: $dark-gray-color;
+            font-size: 20px;
+            font-family: $font-space-grotesk;
+            font-stretch: normal;
+            font-weight: bold;
+            line-height: 1.9;
+          }
+
+          button {
+            background: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+          }
+        }
+
+        .accordion-body {
+
+            p {
+              color: $dark-gray-color;
+              font-size: 13px;
+              font-family: $font-space-grotesk;
+              font-stretch: normal;
+              font-weight: bold;
+              line-height: 1.9;
+              opacity: 0.5;
+            }
+
+        }
+      }
+
+    }
+    .faq-support-picture {
+
+       display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+
+  }
+
+  .footer-faq-support {
+    h1 {
+      color: $dark-gray-color;
+      font-family: $font-productsans-bold;
+      font-size: 30px;
+      font-stretch: normal;
+    }
+    p {
+      color: $dark-gray-color;
+      font-family: $font-space-grotesk;
+      font-size: 18px;
+      font-stretch: normal;
+      opacity: 0.5;
+      margin-bottom: 1rem;
+    }
+
+    a{
+      color: $dark-gray-color;
+      font-family: $font-productsans-bold;
+      font-size: 25px;
+      font-stretch: normal;
+    }
+  }
+}
