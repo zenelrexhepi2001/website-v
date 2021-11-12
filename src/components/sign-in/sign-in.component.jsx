@@ -63,7 +63,7 @@ class SignInPage extends React.Component {
                         </Link>
                     </div>
                     <CoustumButton  type="submit" className="btn btn-primary">Sign in</CoustumButton>
-                    <p>Don't have an account? <Link to='/'>Sign up</Link></p>
+                    <p>Don't have an account? <Link to='/register'>Sign up</Link></p>
                 </form>
             </div>
             </div>

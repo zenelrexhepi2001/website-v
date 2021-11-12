@@ -40,7 +40,7 @@ const Header = () => (
           </ul>
         </div>
         <div className="header__elements-right">
-          <Link to="/" className="btn btn-light">
+          <Link to="/register" className="btn btn-light">
             Register
           </Link>
           <Link to="/login" className="btn btn-primary">
