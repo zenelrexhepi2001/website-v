@@ -39,6 +39,7 @@
         border-radius: 1.5px;
         padding-top: 13.5px;
         transition: 0.2s ease-in;
+        cursor: pointer;
 
         .accordion-elements {
           display: flex;
@@ -64,7 +65,7 @@
         }
 
         .accordion-body {
-
+          cursor: default;
             p {
               color: $dark-gray-color;
               font-size: 13px;
@@ -109,6 +110,101 @@
       font-family: $font-productsans-bold;
       font-size: 25px;
       font-stretch: normal;
+    }
+  }
+
+  .form-control-search {
+    background: transparent;
+    width: 800px;
+    max-width: 100%;
+    font-family: $font-space-grotesk;
+    font-size: 18.9px;
+    font-stretch: normal;
+    font-weight: 500;
+    position: relative;
+    top: 2rem;
+    text-transform: none;
+    margin-bottom: 2rem;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid 1px rgba(0,0,0,0.3);
+    border-radius: 4.5px;
+    outline: none;
+
+    &:focus {
+       border: solid 2px solid $dark-gray-color;
+    }
+  }
+
+  .article-support-two {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-flow: wrap;
+
+    .accordion-support {
+
+      @mixin get_flex-item {
+        display: flex;
+        align-items: center;
+      }
+
+      .accordion-support-item{
+        padding-top: 25px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #ddd;
+        width: 800px;
+
+        .accordion-support-body {
+          @include  get-flex-item;
+
+          h1 {
+            font-size: 22px;
+            font-stretch: normal;
+            color: $dark-gray-color;
+            font-family: $font-space-grotesk;
+            font-weight: bold;
+            line-height: 1.9;
+            letter-spacing: normal;
+          }
+
+          p {
+            font-size: 18px;
+            font-stretch: normal;
+            color: $dark-gray-color;
+            font-family: $font-space-grotesk;
+            font-weight: bold;
+            line-height: 1.25;
+            opacity: 0.49;
+            letter-spacing: normal;
+          }
+
+          a {
+            text-decoration: none;
+            .mdi {
+              font-size: 25px;
+              color: #27aee3;
+            }
+          }
+
+          .accordion-support-button-alert {
+            padding-right: 1rem;
+            button {
+              background: transparent;
+              border: none;
+              outline: none;
+              cursor: pointer;
+
+              .mdi {
+                font-size: 25px;
+                color: #27aee3;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

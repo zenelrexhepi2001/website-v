@@ -7,6 +7,9 @@ import BlogOpened from "./components/blog-opened/blog-opened.component";
 import SignIn from "./pages/sign-in/sign-in.component";
 import Register from "./pages/register/register.component";
 import FaqSupport from "./pages/faq-support/faq-support.component";
+import ArticleSupportPage from "./pages/article-support/article-support.component";
+import ContactSupport from "./pages/contact-support/contact-support.component";
+import Services from "./pages/services/services.component";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
           <Route path='/support' component={FaqSupport}/>
           <Route path="/login" component={SignIn}/>
           <Route path='/register' component={Register}/>
+          <Route path='/article-support' component={ArticleSupportPage}/>
+          <Route path='/contact-support' component={ContactSupport}/>
+          <Route path='/services' component={Services}/>
       </Switch>
     </main>
       </Router>

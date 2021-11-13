@@ -21,13 +21,13 @@ const Header = () => (
               </Link>
             </li>
             <li>
-              <Link to="/" className="header-link">
+              <Link to="/support" className="header-link">
                 Support
                 <Dropdown />
               </Link>
             </li>
             <li>
-              <Link to="/" className="header-link">
+              <Link to="/services" className="header-link">
                 Services
                 <Dropdown />
               </Link>

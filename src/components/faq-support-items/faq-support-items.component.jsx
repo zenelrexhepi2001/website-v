@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Link} from 'react-router-dom';
 import  {DataAccordion} from './faq-support-data';
 import PictureWoman from '../../assets/images/picture.svg';
@@ -15,6 +15,11 @@ import Footer from "../footer/footer.component";
 const FaqSupportItems = () => {
 
     const [clicked,setClicked] = useState(false);
+
+
+    useEffect(() => {
+       document.title = `Voltox FAQ Support`
+   })
 
     const ToggleAccordion = (index) => {
         if(clicked === index) {
@@ -62,7 +67,7 @@ const FaqSupportItems = () => {
                             If you cannot find your answer in our FAQ, you can always contact us.<br/>
                             We will answer to you shortly!
                         </p>
-                        <Link to='/'>
+                        <Link to='/contact-support'>
                             Contact Support
                         </Link>
                     </div>
