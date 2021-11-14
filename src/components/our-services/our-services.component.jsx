@@ -2,8 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {withRouter} from "react-router-dom";
 import {ReactComponent as SecureLogin} from "../../assets/images/Layer 2 (1).svg";
-import {ReactComponent as ScanGo} from "../../assets/images/Layer 2 (2).svg";
-import {ReactComponent as EKYCservice} from "../../assets/images/Layer 2 (3).svg";
+import {ReactComponent as ScanGo} from "../../assets/images/scan.svg";
+import {ReactComponent as EKYCservice} from "../../assets/images/ekyc.svg";
 import {ReactComponent as QRcode} from "../../assets/images/Layer 2 (4).svg";
 
 

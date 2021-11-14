@@ -10,6 +10,8 @@ import FaqSupport from "./pages/faq-support/faq-support.component";
 import ArticleSupportPage from "./pages/article-support/article-support.component";
 import ContactSupport from "./pages/contact-support/contact-support.component";
 import Services from "./pages/services/services.component";
+import liveChatSupport from "./pages/live-chat-support/live-chat-support.component";
+import chatLiveSupport from "./pages/chatting/chatting.component";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path='/article-support' component={ArticleSupportPage}/>
           <Route path='/contact-support' component={ContactSupport}/>
           <Route path='/services' component={Services}/>
+          <Route path='/live-chat-support' component={liveChatSupport}/>
+          <Route path='/chatting-advisor'  component={chatLiveSupport}/>
       </Switch>
     </main>
       </Router>
