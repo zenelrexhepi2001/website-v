@@ -1,0 +1,44 @@
+.article-opened {
+  padding-top: 50px;
+  .article-opened-titles{
+    display: flex;
+   // align-items: center;
+
+    a  {
+      .mdi {
+        font-size: 40px;
+        color: $dark-gray-color;
+      }
+    }
+
+    h1 {
+      color: $dark-gray-color;
+      font-family: $font-productsans-bold;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 20px;
+      font-family: $font-space-grotesk;
+      font-weight: normal;
+      line-height: 2;
+      color: $dark-gray-color;
+    }
+
+    div {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+  }
+
+  .article-opened-desc {
+    p {
+      color: $dark-gray-color;
+      font-size: 23px;
+      font-family: $font-space-grotesk;
+      line-height: 1.1;
+      letter-spacing: normal;
+    }
+  }
+}

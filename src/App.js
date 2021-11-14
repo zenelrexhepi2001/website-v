@@ -12,6 +12,8 @@ import ContactSupport from "./pages/contact-support/contact-support.component";
 import Services from "./pages/services/services.component";
 import liveChatSupport from "./pages/live-chat-support/live-chat-support.component";
 import chatLiveSupport from "./pages/chatting/chatting.component";
+import Api from "./pages/API/api.component";
+import ArticleOpenedPage from "./pages/article-opened/article-opened.component";
 
 function App() {
   return (
@@ -25,10 +27,12 @@ function App() {
           <Route path="/login" component={SignIn}/>
           <Route path='/register' component={Register}/>
           <Route path='/article-support' component={ArticleSupportPage}/>
+          <Route path='/article-support-opened' component={ArticleOpenedPage}/>
           <Route path='/contact-support' component={ContactSupport}/>
           <Route path='/services' component={Services}/>
           <Route path='/live-chat-support' component={liveChatSupport}/>
           <Route path='/chatting-advisor'  component={chatLiveSupport}/>
+          <Route path='/developers' component={Api}/>
       </Switch>
     </main>
       </Router>

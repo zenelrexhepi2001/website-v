@@ -1,0 +1,107 @@
+.api-preview-titles {
+  padding-top: 3rem;
+
+  h1 {
+    color: $dark-gray-color;
+    font-size: 17px;
+    font-family: $font-space-grotesk;
+    line-height: 1.32;
+    letter-spacing: normal;
+    opacity: 0.5;
+  }
+  h2 {
+    color: $dark-gray-color;
+    font-size: 40px;
+    font-family: $font-productsans-bold;
+    line-height: 1.32;
+    letter-spacing: normal;
+
+  }
+}
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  grid-row-gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 3rem;
+
+  .api-reference-card {
+    width: 600px;
+
+    .api-reference-card-body {
+      h1 {
+        color: $dark-gray-color;
+        font-family: $font-space-grotesk;
+        font-size: 28px;
+        font-stretch: normal;
+        line-height: 1.28;
+        letter-spacing: -0.38px;
+      }
+      p {
+        color: $dark-gray-color;
+        font-size: 17px;
+        font-family: $font-space-grotesk;
+        line-height: 1.32;
+        letter-spacing: normal;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+.api-preview-flex {
+  padding-top: 6rem;
+
+  .api-card {
+    margin-bottom: 4rem;
+     .api-card-body {
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-between;
+       align-items: center;
+
+       p {
+         color: $dark-gray-color;
+         font-size: 18px;
+         font-family: $font-space-grotesk;
+         font-weight: normal;
+         line-height: 1.32;
+         letter-spacing: normal;
+         opacity: 0.5;
+       }
+
+
+       .api-card-description {
+         width: 900px;
+         .api-card-titles-bottom {
+           p {
+             color: $dark-gray-color;
+             font-size: 30px;
+             font-family: $font-space-grotesk;
+             font-weight: 500;
+             line-height: 1.28;
+             letter-spacing: -0.38;
+           }
+
+           h2 {
+             font-size: 40px;
+             color: $dark-gray-color;
+             font-family: $font-space-grotesk;
+             font-weight: bold;
+             font-stretch: normal;
+             line-height: 1.28;
+             letter-spacing: -0.6px;
+           }
+           padding-bottom: 4rem;
+         }
+
+         h1 {
+           font-size: 30px;
+           font-family: $font-space-grotesk;
+           font-stretch: normal;
+           line-height: 1.28;
+         }
+       }
+     }
+  }
+}

@@ -15,7 +15,7 @@ const Header = () => (
           </div>
           <ul>
             <li>
-              <Link to="/" className="header-link">
+              <Link to="/developers" className="header-link">
                 Developers
                 <Dropdown />
               </Link>
