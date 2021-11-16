@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link,withRouter } from "react-router-dom";
 import { ReactComponent as LogoHeader } from "../../assets/images/logo.svg";
 import { ReactComponent as Dropdown } from "../../assets/images/dropdown.svg";
 
@@ -52,4 +52,4 @@ const Header = () => (
   </header>
 );
 
-export default Header;
+export default withRouter(Header);

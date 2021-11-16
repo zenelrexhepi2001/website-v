@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import imagedivider from "../../assets/images/computersc.png";
+import imagedivider from "../../assets/images/Group 1407@3x_macbookgrey_front@3x.png";
 import ScrollButton from "../scroll-button/scroll-button.component";
 import Header from "../header/header.component";
 

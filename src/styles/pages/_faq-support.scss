@@ -115,7 +115,7 @@
 
   .form-control-search {
     background: transparent;
-    width: 800px;
+    width: 750px;
     max-width: 100%;
     font-family: $font-space-grotesk;
     font-size: 18.9px;
@@ -141,8 +141,8 @@
   .article-support-two {
      display: flex;
      justify-content: space-between;
-     align-items: center;
-     flex-flow: wrap;
+     align-items: flex-start;
+    // flex-flow: wrap;
 
     .accordion-support {
 
@@ -155,7 +155,7 @@
         padding-top: 25px;
         padding-bottom: 8px;
         border-bottom: 2px solid #ddd;
-        width: 800px;
+        width:  750px;
 
         .accordion-support-body {
           @include  get-flex-item;
@@ -204,6 +204,16 @@
             }
           }
         }
+      }
+    }
+    .article-support-image {
+      max-width: 100%;
+
+      img {
+        background: no-repeat center center /cover;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
     }
   }

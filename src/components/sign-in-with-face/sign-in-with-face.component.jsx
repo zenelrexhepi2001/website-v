@@ -11,7 +11,7 @@ const SignInWithFace = () => (
           </div>
           <div className="sign-in-image">
               <div className="sign-in-avatar">
-                  <img alt="user-avatar" src={UserAvatar}/>
+                  <img src={UserAvatar} alt="user-avatar"/>
               </div>
               <CoustumButton type="button" className="btn btn-primary">Sign in with face</CoustumButton>
           </div>

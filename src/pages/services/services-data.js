@@ -1,7 +1,7 @@
-import voltoxPay from '../../assets/images/voltox-client.png';
-import Image1 from '../../assets/images/men-working-pc.png';
-import girlWatchphone from '../../assets/images/girl-phone.png';
-import scanCode from '../../assets/images/scan-phone.png';
+import voltoxPay from '../../assets/images/Image 1@3x.png';
+import Image1 from '../../assets/images/NoPath - Copy (10)@3x.png';
+import girlWatchphone from '../../assets/images/NoPath - Copy (9)@3x.png';
+import scanCode from '../../assets/images/NoPath - Copy (7)@3x.png';
 
 const ServicesData = [
     {

@@ -3,11 +3,14 @@
   flex-direction: row;
 
   .sidebar {
-    background: url("../../assets/images/sign-in.png")no-repeat center center /cover;
+    background: url("https://voltox.ch/uploads/images/about-engagement.png")no-repeat center center /cover;
   // background-color: rgb(0,0,0,0,0,0.5);
+    //background-color: rgba(white,0.5);
     width: 761px;
     min-height: 100vh;
     object-fit: cover;
+    background-color:rgba(white,0.5);
+   // background-blend-mode: hard-light;
 
     .sidebar-content {
       padding-top: 260px;

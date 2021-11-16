@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import SignInWithFace from "../sign-in-with-face/sign-in-with-face.component";
 import CoustumButton from "../coustum-buttons/coustum-button.component";
-import {ReactComponent as LogoSignin} from '../../assets/images/logo.svg';
+import {ReactComponent as LogoSignin} from '../../assets/images/g10.svg';
 
 class RegisterPage extends React.Component {
     constructor() {

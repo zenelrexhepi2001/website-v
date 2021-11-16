@@ -13,7 +13,7 @@ const BlogCard = () => (
         <div className="card-blog-description">
             <div className="card-blog-image">
               <Link to='/'>
-                  <img src={ImageBlog}/>
+                  <img src="https://salestechstar.com/wp-content/uploads/2021/11/Retail-Innovators-Collaborate-on-New-Digital-Security-Concept.jpg"/>
               </Link>
             </div>
             <div className="card-blog-content">
