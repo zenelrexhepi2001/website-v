@@ -14,6 +14,7 @@ import liveChatSupport from "./pages/live-chat-support/live-chat-support.compone
 import chatLiveSupport from "./pages/chatting/chatting.component";
 import Api from "./pages/API/api.component";
 import ArticleOpenedPage from "./pages/article-opened/article-opened.component";
+import DropdownParent from "./components/dropdown/dropdown.component";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route exact path="/" component={Homepage} />
           <Route path="/blog" component={Blog}/>
           <Route path='/Blog-opened' component={BlogOpened}/>
-          <Route path='/support' component={FaqSupport}/>
+          <Route path='/faq-support' component={FaqSupport}/>
           <Route path="/login" component={SignIn}/>
           <Route path='/register' component={Register}/>
           <Route path='/article-support' component={ArticleSupportPage}/>

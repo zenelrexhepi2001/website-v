@@ -70,10 +70,11 @@
         font-size: 17px;
         font-family: $font-productsans;
         font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
         line-height: 1.18;
         letter-spacing: normal;
-        position: relative;
-        top: 2rem;
+        margin-top: 12px;
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 12px;
@@ -83,7 +84,7 @@
         background-image: linear-gradient(to right, #27aee3 -4%, #0fe3f5 119%);
         border: none;
         outline: none;
-        outline: none;
+        cursor: pointer;
       }
     }
   }

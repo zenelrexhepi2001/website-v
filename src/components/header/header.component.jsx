@@ -2,6 +2,7 @@ import React from "react";
 import { Link,withRouter } from "react-router-dom";
 import { ReactComponent as LogoHeader } from "../../assets/images/logo.svg";
 import { ReactComponent as Dropdown } from "../../assets/images/dropdown.svg";
+import DropdownItem from "../dropdown-item/dropdown-item.component";
 
 const Header = () => (
   <header className="header">
@@ -18,19 +19,41 @@ const Header = () => (
               <Link to="/developers" className="header-link">
                 Developers
                 <Dropdown />
-              </Link>
+                </Link>
+                <ul className="dropdown">
+                  <li>
+                    <Link to='/developers' className="dropdown-item">API</Link>
+                    <Link to='/' className="dropdown-item">SDK</Link>
+                  </li>
+                </ul>
             </li>
             <li>
-              <Link to="/support" className="header-link">
+              <Link to="/article-support" className="header-link">
                 Support
-                <Dropdown />
+                <Dropdown/>
               </Link>
+              <ul className="dropdown">
+                  <li>
+                    <Link to='/faq-support' className="dropdown-item">FAQ Support</Link>
+                    <Link to='/article-support' className="dropdown-item">Article Support</Link>
+                    <Link to='/contact-support' className="dropdown-item">Connected Contact Support</Link>
+                    <Link to='/live-chat-support' className="dropdown-item">Live Chat Support</Link>
+                  </li>
+                </ul>
             </li>
             <li>
               <Link to="/services" className="header-link">
                 Services
                 <Dropdown />
               </Link>
+              <ul className="dropdown">
+                  <li>
+                    <Link to='/' className="dropdown-item">Services</Link>
+                    <Link to='/services' className="dropdown-item">Login & Checkout</Link>
+                    <Link to='/services' className="dropdown-item">Scan & Go</Link>
+                    <Link to='/services' className="dropdown-item">Live Chat Support</Link>
+                  </li>
+                </ul>
             </li>
             <li>
               <Link to="/blog" className="header-link">

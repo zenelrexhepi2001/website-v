@@ -5,6 +5,7 @@ import OurServices from "../../components/our-services/our-services.component";
 import OurBlog from "../../components/our-blog/our-blog.component";
 import Footer from "../../components/footer/footer.component";
 import Header from "../../components/header/header.component";
+import DropdownNav from "../../components/dropdown/dropdown.component";
 
 const Homepage = () => (
     <>
