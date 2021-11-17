@@ -90,6 +90,9 @@
 
           li {
             a {
+              display: flex;
+              align-items: center;
+              flex-direction: row;
               padding-bottom: 19px;
               opacity: 1;
               color: $dark-gray-color;
@@ -103,7 +106,22 @@
 
               &:hover {
                   opacity: 1;
-                  transition: 0.2s ease-in;
+                  transition: 0.3s ease-in;
+
+                  .mdi {
+                    opacity: 1;
+                    transition: 0.3s ease-in;
+                    transform: translateX(0px);
+                  }
+              }
+
+            
+              .mdi {
+                font-size: 32px;
+                color: $dark-gray-color;
+                transition: 0.3s ease-in;
+                opacity: 0;
+                transform: translateX(-25px);
               }
             }
           }
