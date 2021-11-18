@@ -23,6 +23,7 @@
     .services-preview {
         .card-services {
             padding-top: 2rem;
+            width: 100%;
 
             .card-services-body {
                 display: flex;
@@ -46,7 +47,7 @@
 
                 p {
                     color: $dark-gray-color;
-                    width: 500px;
+                    width: 100%;
                     font-family: $font-space-grotesk;
                     font-stretch: normal;
                     font-size: 24px;
