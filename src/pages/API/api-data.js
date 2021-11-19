@@ -1,8 +1,8 @@
-import Apikeyimg from '../../assets/images/know_api.png';
-import apiHttpsimg from '../../assets/images/using_api.png';
-import responseImg from '../../assets/images/err.png';
-import apipostimg from '../../assets/images/response.png';
-import reqImg from '../../assets/images/req.png';
+import Apikeyimg from '../../assets/images/you-api-key.png.png'
+import apiHttpsimg from '../../assets/images/pre-req.png';
+import responseImg from '../../assets/images/status.png';
+import apipostimg from '../../assets/images/json.png.png';
+import reqImg from '../../assets/images/req-api-v.png';
 
  const API_DATA = [
     {

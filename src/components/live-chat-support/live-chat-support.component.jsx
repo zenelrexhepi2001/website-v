@@ -34,7 +34,7 @@ class liveChatSupportPage extends React.Component {
                 <div className="container">
                     <div className="faq-support-titles">
                         <h3>Read more</h3>
-                        <h1>Article Support</h1>
+                        <h1>Live chat support</h1>
                     </div>
                         <div className="live-chat-support-titles">
                             <h1>You must be signed in</h1>
