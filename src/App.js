@@ -15,6 +15,7 @@ import chatLiveSupport from "./pages/chatting/chatting.component";
 import Api from "./pages/API/api.component";
 import ArticleOpenedPage from "./pages/article-opened/article-opened.component";
 import DropdownParent from "./components/dropdown/dropdown.component";
+import AddFace from "./components/add-face/add-face.component";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path='/live-chat-support' component={liveChatSupport}/>
           <Route path='/chatting-advisor'  component={chatLiveSupport}/>
           <Route path='/developers' component={Api}/>
+          <Route path='/add-face' component={AddFace}/>
       </Switch>
     </main>
       </Router>
