@@ -84,7 +84,7 @@
           justify-content: center;
           border: 8.5px solid #27aee3;
           border-radius: 100%;
-          margin-bottom: 1rem;
+          margin-bottom: 2.5rem;
           img {
             background: no-repeat center center /cover;
             width: 250px;
@@ -93,7 +93,7 @@
             object-fit: cover;
           }
         }
-        button{
+        .btn.btn-primary{
           color: $light-color;
           font-size: 16px;
           font-family: $font-productsans;

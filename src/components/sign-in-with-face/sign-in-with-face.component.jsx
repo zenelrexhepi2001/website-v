@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import CoustumButton from "../coustum-buttons/coustum-button.component";
 import UserAvatar from '../../assets/images/bosi.png.png';
 
@@ -13,7 +14,7 @@ const SignInWithFace = () => (
               <div className="sign-in-avatar">
                   <img src={UserAvatar} alt="user-avatar"/>
               </div>
-              <CoustumButton type="button" className="btn btn-primary">Sign in with face</CoustumButton>
+              <Link to='/add-face' target="_blank" className="btn btn-primary">Sign in with face</Link>
           </div>
       </div>
 )
