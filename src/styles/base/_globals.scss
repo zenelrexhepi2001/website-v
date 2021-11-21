@@ -171,3 +171,26 @@ a {
   background: none;
   transition: 0.2s ease-in;
 }
+
+
+body::-webkit-scrollbar {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-button {
+  height: 0;
+}
+
+body::-webkit-scrollbar-track {
+  background-image: linear-gradient(
+    to bottom,
+    #29abe2 -5%,
+    #0ee7f7 106%,
+    #08f5fc 106%
+  );
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #29abe2;
+  border-radius: 30px;
+}

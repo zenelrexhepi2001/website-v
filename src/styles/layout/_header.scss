@@ -1,6 +1,7 @@
 .header.colorChange {
   background: $light-color;
   transition-timing-function: ease-in;
+  box-shadow: 2px 4px 7.5px 0 rgba(0, 0, 0, 0.16);
 }
 
 .header {

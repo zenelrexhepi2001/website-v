@@ -83,13 +83,21 @@
     .faq-support-picture {
 
        display: flex;
-      justify-content: flex-end;
-      width: 100%;
+       justify-content: space-evenly;
+       width: 100%;
+
+      img {
+        background: no-repeat center center /cover;
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
 
   }
 
   .footer-faq-support {
+    padding-top: 2rem;
     h1 {
       color: $dark-gray-color;
       font-family: $font-productsans-bold;
@@ -100,16 +108,37 @@
       color: $dark-gray-color;
       font-family: $font-space-grotesk;
       font-size: 18px;
+      width: 700px;
       font-stretch: normal;
       opacity: 0.5;
       margin-bottom: 1rem;
     }
 
     a{
+      display: flex;
+      align-items: center;
       color: $dark-gray-color;
       font-family: $font-productsans-bold;
       font-size: 25px;
       font-stretch: normal;
+      
+
+      svg {
+        font-size: 30px;
+        font-family: $font-productsans-bold;
+        font-weight: bold;
+        color: $dark-gray-color;
+        transform: translateX(-1rem);
+        opacity: 0;
+      }
+
+      &:hover {
+        svg {
+          opacity: 1;
+          transition: 0.3s ease-in;
+          transform: translateX(-0rem);
+        }
+      }
     }
   }
 
