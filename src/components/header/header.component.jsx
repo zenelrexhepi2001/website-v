@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { connect } from "react-redux";
 import { Link, withRouter } from "react-router-dom";
 import { ReactComponent as LogoHeader } from "../../assets/images/logo.svg";
 import { ReactComponent as Dropdown } from "../../assets/images/dropdown.svg";
 import DropdownItem from "../dropdown-item/dropdown-item.component";
+import { UserActions } from "../../redux/user/user-actions";
 
-const Header = () => {
+const Header = ({ UserActions }) => {
   const [colorChange, setColorchange] = useState(false);
   const changeHeadercolor = () => {
     if (window.scrollY >= 80) {
@@ -100,10 +102,14 @@ const Header = () => {
             </ul>
           </div>
           <div className="header__elements-right">
-            <Link to="/register" className="btn btn-light">
+            <Link
+              to="/register"
+              className="btn btn-light"
+              onClick={UserActions}
+            >
               Register
             </Link>
-            <Link to="/login" className="btn btn-primary">
+            <Link to="/login" className="btn btn-primary" onClick={UserActions}>
               Login
             </Link>
           </div>
@@ -113,4 +119,8 @@ const Header = () => {
   );
 };
 
-export default withRouter(Header);
+const Maptodispatch = (dispatch) => ({
+  UserActions: () => dispatch(UserActions()),
+});
+
+export default connect(null, Maptodispatch)(Header);
