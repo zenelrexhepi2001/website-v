@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch,Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/header/header.component";
 import Homepage from "./pages/homepage/homepage.component";
 import Blog from "./pages/blog/blog-component";
@@ -16,29 +16,31 @@ import Api from "./pages/API/api.component";
 import ArticleOpenedPage from "./pages/article-opened/article-opened.component";
 import DropdownParent from "./components/dropdown/dropdown.component";
 import AddFace from "./components/add-face/add-face.component";
+import ErrorPage from "./pages/404/error-404";
 
 function App() {
   return (
-      <Router>
-    <main>
-      <Switch>
-        <Route exact path="/" component={Homepage} />
-          <Route path="/blog" component={Blog}/>
-          <Route path='/Blog-opened' component={BlogOpened}/>
-          <Route path='/faq-support' component={FaqSupport}/>
-          <Route path="/login" component={SignIn}/>
-          <Route path='/register' component={Register}/>
-          <Route path='/article-support' component={ArticleSupportPage}/>
-          <Route path='/article-support-opened' component={ArticleOpenedPage}/>
-          <Route path='/contact-support' component={ContactSupport}/>
-          <Route path='/services' component={Services}/>
-          <Route path='/live-chat-support' component={liveChatSupport}/>
-          <Route path='/chatting-advisor'  component={chatLiveSupport}/>
-          <Route path='/developers' component={Api}/>
-          <Route path='/add-face' component={AddFace}/>
-      </Switch>
-    </main>
-      </Router>
+    <Router>
+      <main>
+        <Switch>
+          <Route exact path="/" component={Homepage} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/Blog-opened" component={BlogOpened} />
+          <Route path="/faq-support" component={FaqSupport} />
+          <Route path="/login" component={SignIn} />
+          <Route path="/register" component={Register} />
+          <Route path="/article-support" component={ArticleSupportPage} />
+          <Route path="/article-support-opened" component={ArticleOpenedPage} />
+          <Route path="/contact-support" component={ContactSupport} />
+          <Route path="/services" component={Services} />
+          <Route path="/live-chat-support" component={liveChatSupport} />
+          <Route path="/chatting-advisor" component={chatLiveSupport} />
+          <Route path="/developers" component={Api} />
+          <Route path="/add-face" component={AddFace} />
+          <Route component={ErrorPage} />
+        </Switch>
+      </main>
+    </Router>
   );
 }
 

@@ -1,0 +1,37 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+   
+
+    .error-image {
+       
+        img {
+            width: 100%;
+            height: 25rem;
+        }
+    }
+
+    .error-content {
+        text-align: center;
+        h1 {
+            color: $dark-gray-color;
+            font-family: $font-productsans;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+     
+        a {
+            color: $dark-gray-color;
+            font-size: 20px;
+            font-family: $font-productsans;
+            text-align: center;
+            margin: auto;
+            text-transform: uppercase;
+        }
+    }
+    
+ 
+}
